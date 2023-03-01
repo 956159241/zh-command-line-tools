@@ -1,6 +1,8 @@
-﻿
+﻿using log;
 
-using log;
+
+var stringArgs = String.Join(",", args);
+Console.WriteLine("Args", stringArgs );
 
 Console.WriteLine("Hello, World!");
 
