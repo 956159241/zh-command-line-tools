@@ -1,9 +1,14 @@
 ﻿using log;
+using zh_tools_dotnet;
+
+LogHelper.WriteLog("Start", LogHelper.LogLevel.Info);
+var dArgs = ArgsHelper.ConvertArgs(args);
+if (dArgs is null)
+{ 
+	LogHelper.WriteLog("The parameter is invalid", LogHelper.LogLevel.Info);
+}
+
+LogHelper.WriteLog("End", LogHelper.LogLevel.Info);
 
 
-var stringArgs = String.Join(",", args);
-Console.WriteLine("Args", stringArgs );
 
-Console.WriteLine("Hello, World!");
-
-LogHelper.WriteLog("Hello World", LogHelper.LogLevel.Info);
