@@ -13,6 +13,7 @@ namespace log
 			Error,
 			Fatal
 		}
+
 		private static Logger logger = LogManager.GetCurrentClassLogger();
 
 		public static void WriteLog(string message, LogLevel logLevel)

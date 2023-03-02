@@ -2,7 +2,7 @@
   "profiles": {
     "zhhtmltopdf": {
       "commandName": "Project",
-      "commandLineArgs": "--version --html-header a.html --html-footer b.html c.html d.pdf"
+      "commandLineArgs": "--html-header a.html --html-footer b.html c.html d.pdf"
     }
   }
 }

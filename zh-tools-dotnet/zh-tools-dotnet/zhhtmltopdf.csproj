@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="NLog" Version="5.1.2" />
+    <PackageReference Include="PuppeteerSharp" Version="9.0.2" />
   </ItemGroup>
 
   <ItemGroup>
