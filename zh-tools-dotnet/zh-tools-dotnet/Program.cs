@@ -10,3 +10,4 @@ if (dArgs is null)
 
 await PDFHelper.Generate();
 LogHelper.WriteLog("End", LogHelper.LogLevel.Info);
+Console.ReadLine();
