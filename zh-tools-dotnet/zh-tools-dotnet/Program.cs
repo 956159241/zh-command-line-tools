@@ -8,6 +8,6 @@ if (dArgs is null)
 	LogHelper.WriteLog("The parameter is invalid", LogHelper.LogLevel.Info);
 }
 
-await PDFHelper.Generate();
+await PDFHelper.Generate(dArgs);
 LogHelper.WriteLog("End", LogHelper.LogLevel.Info);
 Console.ReadLine();

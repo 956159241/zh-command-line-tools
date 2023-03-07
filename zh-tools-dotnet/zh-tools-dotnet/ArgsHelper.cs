@@ -15,9 +15,9 @@
 				}
 				else
 				{
-					if (!result.ContainsKey("body"))
+					if (!result.ContainsKey("input"))
 					{
-						result.Add("body", args[i]);
+						result.Add("input", args[i]);
 					}
 					else if (!result.ContainsKey("output"))
 					{

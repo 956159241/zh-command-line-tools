@@ -8,8 +8,9 @@ namespace zh_tools_dotnet
 {
 	public class PDFHelper
 	{
-		public static async Task Generate()
+		public static async Task Generate(Dictionary<string, string> args)
 		{
+			Console.WriteLine(args.ToString());
 			//await ScreenShots();
 			await Pdf();
 			//var html = "Hello World";

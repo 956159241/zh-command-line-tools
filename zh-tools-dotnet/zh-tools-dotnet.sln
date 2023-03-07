@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zhhtmltopdf", "zh-tools-dotnet\zhhtmltopdf.csproj", "{AD614D52-02E2-421C-81C7-79E125E4C6CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zhtml2pdf", "zh-tools-dotnet\zhtml2pdf.csproj", "{AD614D52-02E2-421C-81C7-79E125E4C6CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log", "log\log.csproj", "{664F5015-A553-48B1-B1E9-6F4C739BF5FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "log", "log\log.csproj", "{664F5015-A553-48B1-B1E9-6F4C739BF5FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
