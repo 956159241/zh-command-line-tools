@@ -10,4 +10,9 @@
     <PackageReference Include="PuppeteerSharp" Version="9.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\log\log.csproj" />
+    <ProjectReference Include="..\utils\utils.csproj" />
+  </ItemGroup>
+
 </Project>

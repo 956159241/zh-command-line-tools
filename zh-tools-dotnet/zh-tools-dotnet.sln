@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zhtml2pdf", "zh-tools-dotne
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "log", "log\log.csproj", "{664F5015-A553-48B1-B1E9-6F4C739BF5FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "puppeteer", "puppeteer\puppeteer.csproj", "{CAB05B2F-9657-4BA0-944E-FE1911A7108E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "puppeteer", "puppeteer\puppeteer.csproj", "{CAB05B2F-9657-4BA0-944E-FE1911A7108E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utils", "utils\utils.csproj", "{9CA15222-B237-4F9D-B0EB-0FEA76708A16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{CAB05B2F-9657-4BA0-944E-FE1911A7108E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAB05B2F-9657-4BA0-944E-FE1911A7108E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAB05B2F-9657-4BA0-944E-FE1911A7108E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA15222-B237-4F9D-B0EB-0FEA76708A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA15222-B237-4F9D-B0EB-0FEA76708A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA15222-B237-4F9D-B0EB-0FEA76708A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA15222-B237-4F9D-B0EB-0FEA76708A16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

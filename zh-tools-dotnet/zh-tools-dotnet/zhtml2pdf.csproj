@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\log\log.csproj" />
+    <ProjectReference Include="..\puppeteer\puppeteer.csproj" />
   </ItemGroup>
 
 </Project>
