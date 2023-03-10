@@ -70,9 +70,19 @@ namespace puppeteer
 
 		private static async Task setContent(IPage page, String input) 
 		{
+			// 如果是url
 			if (IsHelper.IsUrl(input))
 			{
 				await page.GoToAsync(input);
+			}
+			// 是否是文件
+			else if (File.Exists(input))
+			{
+
+			}
+			else 
+			{
+				await page.SetContentAsync(input);
 			}
 			//await page.SetContentAsync("<div id=\"body-template\" style=\"font-size:10px !important; color:#808080; padding-left:500px; page-break-before:always;\">body Text<div class=\"pageNumber\"></div> <div>/</div><div class=\"totalPages\"></div></div><div id=\"body-template\" style=\"font-size:10px !important; color:#808080; padding-left:500px; page-break-before:always;\">body Text</div><div id=\"body-template\" style=\"font-size:10px !important; color:#808080; padding-left:500px; page-break-before:always;\">body Text</div>");
 		}
