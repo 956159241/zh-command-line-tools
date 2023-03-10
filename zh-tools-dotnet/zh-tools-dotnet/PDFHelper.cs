@@ -11,7 +11,7 @@ namespace zh_tools_dotnet
 	{
 		public static async Task Generate(Dictionary<string, string> args)
 		{
-			await PuppeteerHelper.Pdf(args) ;
+			await PuppeteerHelper.Pdf(args);
 		}
 	}
 }

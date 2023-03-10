@@ -1,10 +1,14 @@
 ﻿using System.Text;
-using System.Text.RegularExpressions;
 
-namespace zh_tools_dotnet
+namespace utils
 {
-	public static class Utils
+	public static class StringHelper
 	{
+		/// <summary>
+		/// 命名方式转换：横杠转驼峰命名
+		/// </summary>
+		/// <param name="name"></param>
+		/// <returns></returns>
 		public static string LineToHump(string name)
 		{
 			StringBuilder builder = new StringBuilder();
