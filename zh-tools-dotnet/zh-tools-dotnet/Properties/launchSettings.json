@@ -2,7 +2,7 @@
   "profiles": {
     "zhhtmltopdf": {
       "commandName": "Project",
-      "commandLineArgs": "https://www.iotzzh.com D:\\d.pdf"
+      "commandLineArgs": "D:\\index.html D:\\d.pdf"
     }
   }
 }

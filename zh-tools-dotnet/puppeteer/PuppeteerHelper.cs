@@ -76,9 +76,9 @@ namespace puppeteer
 				await page.GoToAsync(input);
 			}
 			// 是否是文件
-			else if (File.Exists(input))
+			else if (File.Exists($@"{input}"))
 			{
-
+				await page.GoToAsync(input);
 			}
 			else 
 			{
